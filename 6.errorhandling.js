@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open('Get','https://restcountries.eu/rest/v2/al', true);
+request.open('Get','https://restcountries.eu/rest/v2/al', true);<p>I removed a charcter from the url, to check error handling</p> 
 request.send();
 request.onload=function()
 {
